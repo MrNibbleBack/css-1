@@ -1,0 +1,177 @@
+/* Lesson 1 */
+/* Task 1 */
+:root {
+    background-color:white;
+}
+
+/* Task 2 */
+* {
+    color:green;
+}
+
+/* Task 3 */
+h1 {
+    color:blue;
+}
+
+/* Task 4 */
+.green {
+    color:green;
+}
+
+/* Task 5 */
+#blue {
+    color:blue;
+}
+
+/* Task 6 */ 
+section p {
+    background:red;
+}
+section div {
+    background:green;
+}
+
+/* Task 7 */
+.brown {
+    background:brown;
+    color:white;
+}
+
+/* Task 8 */
+ul>li {
+    background:red;
+}
+
+/* Task 9 */ 
+button + .header-button {
+    background: red;
+}
+
+/* Task 10 */
+p ~ p  {
+    background:blue;
+    color: white;
+}
+
+/* Task 11 */
+.salo, #bread {
+    background:yellow;
+}
+
+/* Lesson 2 */
+
+/* Task 1 */
+li:first-child {
+    color:white;
+}
+
+/* Task 2 */
+ul:first-child li:first-child {
+    color:yellow;
+}
+
+/* Task 3 */
+ul + ul li:first-child {
+    background:yellow;
+}
+
+/* Task 4 */
+li:last-child {
+    background:yellow;
+}
+
+/* Task 5 */
+ul:last-child li:last-child {
+    color:white;
+}
+
+/* Task 6 */
+div:only-child {
+    color:red;
+}
+
+/* Task 7 */
+div .seven-task p:first-of-type {
+    background:red;
+}
+
+/* Task 8 */
+div .eight-task p:last-of-type {
+    background:red;
+}
+
+/* Task 9 */
+p:only-of-type {
+    background:yellow;
+}
+
+/* Lesson 3 */
+
+/* Task 1 */
+a[href] {
+    color:white;
+}
+
+/* Task 2 */
+li[value] {
+    color:yellow;
+}
+
+/* Task 3 */
+li[value='3'] {
+    background:red;
+}
+
+/* Task 4 */
+button[class~="primary"] {
+    background:blue;
+}
+
+/* Task 5 */
+button[class|="secondary"] {
+    background:red;
+}
+
+/* Task 6 */
+li[class^="b"] {
+    color:green;
+    background:white;
+}
+
+/* Task 7 */
+li[class*="on"] {
+    color:green;
+    background:white;
+}
+
+/* Task 8 */
+*[class$="s"] {
+    color:blue;
+    background:white;
+}
+
+/* Task 9 */
+h2::first-letter {
+    color:red;
+}
+
+/* Task 10 */
+p::first-line {
+    background:yellow ;
+}
+
+/* Task 11 */
+input::placeholder {
+    background:red;
+}
+
+/* Task 12 */
+li::before {
+    content:"➤"
+}
+
+/* Task 13 */
+li::after {
+    content:"➤"
+}
